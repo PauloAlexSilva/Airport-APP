@@ -1,2 +1,2 @@
-# Airport APP
-Simple program to use at airport customs
+# Airport Customs - Android App
+Simple random selection program for queues at airport customs.
