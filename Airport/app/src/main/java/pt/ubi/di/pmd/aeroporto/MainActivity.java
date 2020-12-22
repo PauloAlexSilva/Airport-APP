@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         imagem = findViewById(R.id.minhaImagem);
         texto = findViewById(R.id.meuTexto);
 
-        texto.setText("CLIQUE PARA CONTINUAR");
+        texto.setText("CLICK TO CONTINUE");
         imagem.setVisibility(View.INVISIBLE);
 
         //Classe animação para imagem
@@ -78,10 +78,10 @@ public class MainActivity extends Activity {
         a apontar para a direita setScaleX(-1f);*/
 
         if (Math.random() < 0.5) {
-            texto.setText("SIGA PARA A ESQUERDA");
+            texto.setText("GO LEFT");
             imagem.setScaleX(1f);
         } else {
-            texto.setText("SIGA PARA A DIREITA");
+            texto.setText("GO RIGHT");
             imagem.setScaleX(-1f);
         }
         imagem.startAnimation(aparece);
@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 imagem.startAnimation(desaparece);
-                texto.setText("CLIQUE PARA CONTINUAR");
+                texto.setText("CLICK TO CONTINUE");
             }
         }, 2000);
     }

@@ -19,6 +19,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#FAF9F7"
         android:textSize="30dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
